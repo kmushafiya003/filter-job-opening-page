@@ -1,0 +1,121 @@
+@media only screen and (min-width: 400px) {
+
+
+    .job-opening-box {
+        padding-top: 60px;
+    }
+
+    .company-logo {
+        width: 60px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 450px) {
+
+    .header {
+        height: 120px;
+    }
+}
+
+
+@media only screen and (min-width: 648px) {
+
+    .header {
+        background-image: url("../images/bg-header-desktop.svg");
+    }
+
+    .job-opening-box {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 34px;
+    }
+
+    .left-side {
+        width: 250px;
+    }
+
+    .div-line {
+        display: none;
+    }
+
+    .container{
+        width:90%;
+    }
+}
+
+
+@media only screen and (min-width: 805px) {
+
+    .company-logo {
+        width: 80px;
+        position: static;
+    }
+
+    .job-opening-box {
+        padding-block: 20px;
+
+
+    }
+
+    .right-side {
+        align-items: center;
+    }
+
+    .container {
+        gap: 26px;
+    }
+
+    .left-side {
+        width: max-content;
+    }
+
+}
+
+@media only screen and (min-width: 850px) {
+
+
+    .container {
+        width: 750px;
+    }
+
+    .filter-container {
+        width: 750px;
+    }
+
+    .job-opening-box {
+        padding-inline: 32px;
+    }
+
+    .left-side {
+        gap: 24px;
+    }
+}
+
+
+@media only screen and (min-width: 1020px) {
+
+
+    .container {
+        width: 900px;
+    }
+
+    .filter-container {
+        width: 900px;
+    }
+}
+
+
+@media only screen and (min-width: 1220px) {
+
+
+    .container {
+        width: 1140px;
+    }
+
+    .filter-container {
+        width: 1140px;
+    }
+}
